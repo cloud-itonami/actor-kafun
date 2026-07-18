@@ -1,0 +1,6 @@
+{:did "did:web:etzhayyim.github.io:com-etzhayyim-kafun"
+ :handle "kafun.etzhayyim.com"
+ :graph-type "com.etzhayyim.kafun.graph"
+ :published "2026-07-18"
+ :bundle [["data/seed.edn" "seed.edn"]
+          ["schema/ontology.kafun.edn" "ontology.kafun.edn"]]}

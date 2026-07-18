@@ -1,0 +1,17 @@
+{:repository/name "com-etzhayyim-kafun"
+ :repository/category :actor
+ :repository/canonical-format :edn
+ :repository/canonical-metadata "manifest.edn"
+ :repository/canonical-identity "identity.edn"
+ :repository/canonical-deployment "kotoba.app.edn"
+ :repository/dependencies "dependencies.edn"
+ :repository/source-roots ["src"]
+ :repository/test-roots ["test"]
+ :repository/canonical-data ["data/seed.edn"
+                             "schema/ontology.kafun.edn"
+                             "schema/schema.edn"
+                             "lex/remediationVerdict.edn"
+                             "lex/pollenRemediationMap.edn"]
+ :repository/external-wire "wire"
+ :repository/legacy-artifacts-forbidden ["run_tests.sh" "kotoba/seed.edn"
+                                         "kotoba/ontology.kafun.edn"]}
