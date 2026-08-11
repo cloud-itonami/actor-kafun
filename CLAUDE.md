@@ -1,4 +1,7 @@
-# com-etzhayyim-kafun
+# cloud-itonami/actor-kafun
+
+Canonical repository: `https://github.com/cloud-itonami/actor-kafun`.
+The former `etzhayyim/com-etzhayyim-kafun` path is a compatibility redirect.
 
 `kafun`（花粉）は花粉負荷を生態系の restoration route に整流する actor です。
 旧 `etzhayyim/root/20-actors/kafun` の実装と契約はこの flat west project が所有します。
