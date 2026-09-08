@@ -26,7 +26,7 @@
   The gate REFUSES non-restorative cuts STRUCTURALLY (proven by tests): there is
   no path by which a clearcut-without-reforest or net-carbon-positive stand returns
   a remediation permit. There is NO actuation method — kafun cannot cut or plant."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [kafun.methods.kafun-edn :as ke]))
 
 ;; ── pure scoring ──────────────────────────────────────────────────────────────

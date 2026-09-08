@@ -16,7 +16,7 @@
   appends to a local file. Verdicts are :synthetic at R0; the ledger is auditable
   (a restoration record, NEVER a cut-list — the data is remediation decisions,
   not stand locations to fell)."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             #?(:clj [clojure.java.io :as io])))
 
 (defn add [entity attr value] [":db/add" entity attr value])

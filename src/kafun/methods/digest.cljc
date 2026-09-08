@@ -19,7 +19,7 @@
   Assessment-only: the digest reports a RESTORATION map, never a cut-list (G1/G2)."
   (:require [kafun.methods.remediate :as rem]
             [kafun.methods.kafun-edn :as ke]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             #?(:clj [babashka.http-client :as http])
             #?(:clj [clojure.edn :as edn])))
 

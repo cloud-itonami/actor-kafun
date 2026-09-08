@@ -4,7 +4,7 @@
 (ns kafun.methods.test-remediate
   (:require [kafun.methods.kafun-edn :as ke]
             [kafun.methods.remediate :as r]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [clojure.test :refer [deftest is run-tests]]))
 
 (def seed-path "data/seed.edn")
