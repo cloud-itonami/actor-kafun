@@ -2,7 +2,7 @@
 ;; kafun 花粉 — ie-flow embedding tests (the energy-flow SoS leg).
 ;; Run via bb run_tests.clj
 (ns kafun.methods.test-ie-flow
-  (:require [kafun.methods.kafun-edn :as ke]
+  (:require [kotoba.lang.text] [kafun.methods.kafun-edn :as ke]
             [kafun.methods.ie-flow :as ief]
             [etzhayyim.ie-flow.embed :as embed]
             [clojure.java.io :as io]
@@ -62,10 +62,10 @@
 
 (deftest html-is-self-contained
   (let [html (ief/render-html (ief/viz-model (ss)))]
-    (is (clojure.string/includes? html "<canvas"))
-    (is (clojure.string/includes? html "order-index"))
-    (is (clojure.string/includes? html "system of systems"))
-    (is (not (clojure.string/includes? html "http://")) "no external fetch — fully self-contained")))
+    (is (kotoba.lang.text/includes? html "<canvas"))
+    (is (kotoba.lang.text/includes? html "order-index"))
+    (is (kotoba.lang.text/includes? html "system of systems"))
+    (is (not (kotoba.lang.text/includes? html "http://")) "no external fetch — fully self-contained")))
 
 ;; ── record-flow! → the shared ie-flow ledger (the heartbeat/tool record! leg) ─
 
@@ -87,7 +87,7 @@
 (deftest record-flow!-returns-ledger-summary
   (let [r (ief/record-flow! (ss) {:tx-id "t2" :as-of "beat"})]
     (is (= 12 (:events r)))
-    (is (clojure.string/ends-with? (:flow-log r) "80-data/ie-flow/kafun/flow.kotoba.edn"))
+    (is (kotoba.lang.text/ends-with? (:flow-log r) "80-data/ie-flow/kafun/flow.kotoba.edn"))
     (is (number? (:order-index r)))
     ;; cleanup the real kafun ledger this test wrote (gitignored, but keep the tree clean)
     (let [f (io/file (:flow-log r))] (when (.exists f) (.delete f))

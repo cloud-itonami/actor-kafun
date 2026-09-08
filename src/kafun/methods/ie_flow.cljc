@@ -32,7 +32,7 @@
             [kafun.methods.remediate :as rem]
             [etzhayyim.ie-flow.metrics :as iem]
             [etzhayyim.ie-flow.gate-adapter :as ga]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             #?(:clj [clojure.edn :as edn])))
 
 ;; ── value model: how much ORDER each verdict route exports per unit burden ───

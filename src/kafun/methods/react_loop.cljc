@@ -45,7 +45,7 @@
   rate are BOTH fixed enumerations/functions of the beat index — never sampled, never a
   function of kafun's own prior choice (so a proposal is never conflated with the outside
   world's actual pace)."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [kafun.methods.remediate :as rem]
             [kafun.methods.dynamics :as dyn]
             [kafun.methods.kotoba :as k]
