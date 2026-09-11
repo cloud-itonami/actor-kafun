@@ -16,4 +16,4 @@ Canonical EDN assets:
 - `schema/ontology.kafun.edn`, `schema/schema.edn`
 - `lex/remediationVerdict.edn`, `lex/pollenRemediationMap.edn`
 
-Run the full suite with `bb run_tests.clj`.
+Run the full suite with `kbb run_tests.cljk`.

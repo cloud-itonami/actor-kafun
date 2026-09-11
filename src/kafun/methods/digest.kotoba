@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; kafun 花粉 — Murakumo-narrated remediation digest (fail-open template, G6/G8).
 (ns kafun.methods.digest
   "digest.cljc — kafun 花粉 reasons about its remediation MAP in human-readable words

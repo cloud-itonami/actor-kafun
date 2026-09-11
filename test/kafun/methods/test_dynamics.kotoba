@@ -1,6 +1,6 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; kafun 花粉 — tests for the remediation-readiness system-dynamics stock-flow model.
-;; Run via bb run_tests.clj
+;; Run via kbb run_tests.cljk
 (ns kafun.methods.test-dynamics
   "Tests for dynamics.cljc — the readiness stock-flow. Verifies: purity/determinism, threshold
   crossing re-scores through the UNCHANGED gate (never a duplicate/relaxed gate), hard refusals

@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; kafun 花粉 — remediation-ledger kotoba Datom-log writer (content-addressed).
 (ns kafun.methods.kotoba
   "kotoba.cljc — kafun 花粉 append-only REMEDIATION LEDGER writer

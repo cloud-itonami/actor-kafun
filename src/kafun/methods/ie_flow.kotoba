@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; kafun 花粉 — ie-flow embedding + energy-flow VISUALIZATION (the SoS leg).
 (ns kafun.methods.ie-flow
   "ie_flow.cljc — kafun 花粉 embeds the information-energy flow lifecycle

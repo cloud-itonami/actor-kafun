@@ -1,6 +1,6 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; kafun 花粉 — ie-flow embedding tests (the energy-flow SoS leg).
-;; Run via bb run_tests.clj
+;; Run via kbb run_tests.cljk
 (ns kafun.methods.test-ie-flow
   (:require [kotoba.lang.text] [kafun.methods.kafun-edn :as ke]
             [kafun.methods.ie-flow :as ief]

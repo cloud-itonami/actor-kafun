@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; kafun 花粉 — seed loader + classifier (clj-native, pure stdlib).
 (ns kafun.methods.kafun-edn
   "kafun 花粉 — load + classify the forest-stand seed substrate.

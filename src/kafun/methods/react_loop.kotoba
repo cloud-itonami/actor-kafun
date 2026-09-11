@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; kafun 花粉 — the remediation-bottleneck SYSTEM-DYNAMICS ReAct beat.
 (ns kafun.methods.react-loop
   "react-loop — kafun's remediation-bottleneck ReAct beat over a SYSTEM-DYNAMICS forecast of

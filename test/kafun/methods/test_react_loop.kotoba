@@ -1,6 +1,6 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; kafun 花粉 — tests for the system-dynamics ReAct loop (react_loop.cljc).
-;; Run via bb run_tests.clj
+;; Run via kbb run_tests.cljk
 (ns kafun.methods.test-react-loop
   "Tests for react_loop.cljc — SENSE->ORIENT->HYPOTHESIZE->REVIEW->RANK->EVOLVE->ACT->
   OBSERVE->LEARN->PERSIST over the readiness stock-flow. Verifies: leak-free scoring, the
