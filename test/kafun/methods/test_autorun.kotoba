@@ -1,6 +1,6 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; kafun 花粉 — heartbeat tests (持続永続化: append-on-change, idempotent, resume-safe).
-;; Run via bb run_tests.clj
+;; Run via kbb run_tests.cljk
 (ns kafun.methods.test-autorun
   (:require [kafun.methods.autorun :as a]
             [kafun.methods.kafun-edn :as ke]

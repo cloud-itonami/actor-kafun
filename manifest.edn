@@ -83,7 +83,7 @@
 
  :actor/tests
  {:runner "babashka"
-  :cmd "bb run_tests.clj"
+  :cmd "kbb run_tests.cljk"
   :suites ["test/kafun/methods/test_kafun_edn.cljc"
            "test/kafun/methods/test_remediate.cljc"
            "test/kafun/methods/test_kotoba.cljc"

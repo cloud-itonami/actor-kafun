@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; kafun 花粉 — remediation-READINESS system-dynamics stock-flow model.
 (ns kafun.methods.dynamics
   "dynamics.cljc — kafun 花粉's OWN system-dynamics stock-flow model over remediation

@@ -1,6 +1,6 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; kafun 花粉 — remediation gate tests (incl. the constitutional refusal invariants).
-;; Run via bb run_tests.clj
+;; Run via kbb run_tests.cljk
 (ns kafun.methods.test-remediate
   (:require [kafun.methods.kafun-edn :as ke]
             [kafun.methods.remediate :as r]

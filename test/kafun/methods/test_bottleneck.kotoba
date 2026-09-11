@@ -1,6 +1,6 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; kafun 花粉 — tests for the remediation pipeline bottleneck lens.
-;; Run via bb run_tests.clj
+;; Run via kbb run_tests.cljk
 (ns kafun.methods.test-bottleneck
   "Tests for remediation-bottlenecks — the pipeline-constraint view: which blocking stage
   (:await-sapling-supply the 無花粉苗木 L1-1 隘路 / :await-consent) jams the most stands, plus the

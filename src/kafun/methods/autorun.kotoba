@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; kafun 花粉 — autonomous heartbeat: assess → append verdicts to the remediation ledger.
 (ns kafun.methods.autorun
   "autorun.cljc — kafun 花粉 deterministic heartbeat (ADR-2606211712).

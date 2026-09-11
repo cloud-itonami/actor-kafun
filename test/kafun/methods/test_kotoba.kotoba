@@ -1,6 +1,6 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; kafun 花粉 — remediation-ledger (content-addressed commit-DAG) tests.
-;; Run via bb run_tests.clj
+;; Run via kbb run_tests.cljk
 (ns kafun.methods.test-kotoba
   (:require [kafun.methods.kotoba :as k]
             [clojure.java.io :as io]

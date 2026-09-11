@@ -1,4 +1,4 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; kafun 花粉 — the 花粉撲滅 remediation GATE (clj-native, pure stdlib).
 (ns kafun.methods.remediate
   "kafun 花粉 — the 花粉撲滅 remediation gate (ADR-2606211712, the clj-native

@@ -1,6 +1,6 @@
-#!/usr/bin/env bb
+#!/usr/bin/env kbb
 ;; kafun 花粉 — seed loader tests.
-;; Run via bb run_tests.clj
+;; Run via kbb run_tests.cljk
 (ns kafun.methods.test-kafun-edn
   (:require [kafun.methods.kafun-edn :as ke]
             [clojure.test :refer [deftest is run-tests]]))

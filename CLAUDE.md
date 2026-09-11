@@ -16,7 +16,7 @@ The former `etzhayyim/com-etzhayyim-kafun` path is a compatibility redirect.
 
 ## Test
 
-    bb run_tests.clj
-    clojure -M:test
+    kbb run_tests.cljk
+    kbb -M:test
 
 Mesh entry is `src/kafun/mesh.clj`; canonical seed is `data/seed.edn`.
